@@ -20,7 +20,7 @@
 .main-card {
     width: 70%;
     height: 85%;
-    background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?w=1480&t=st=1662649601~exp=1662650201~hmac=977281008c0620d26916c296846e228c003c2bfd59ac36a838f65e3ae275b942');
+    background-image: url('https://res.cloudinary.com/dnsrtzzwr/image/upload/v1662803815/25501_ouyoz4.jpg');
     background-size: cover;
     border-radius: 50px;
     display: flex;
@@ -29,19 +29,19 @@
 }
 
 .left-temp-card {
-    width: 300px;
-
-
-
+    width: 25%;
 }
 
 .left-temp-main {
-    padding: 36px;
+    padding: 30px;
 }
 
 .right-chart-card {
     background-color: #e4f1ff;
+    text-align: center;
     flex-grow: 1;
+    width: 75%;
+    height: 100%;
     border-radius: 50px;
     padding: 37px;
 }
@@ -64,14 +64,11 @@
     font-size: 12px;
 }
 
-.fa-toggle-on {
-    color: white;
-    font-size: 27px;
-    margin: 0px 7px 0px 7px;
-}
+
 
 .fa-plus {
     background-color: white;
+    font-size: 10px;
     color: #5c9ce5;
     padding: 3px;
     border-radius: 5px;
@@ -90,16 +87,16 @@
 
 .dots {
     background-color: white;
-    width: 20px;
-    height: 7px;
+    width: 10px;
+    height: 4px;
     border-radius: 40px;
     margin: 2px;
 }
 
 .dot {
     background-color: #b3d6fd;
-    width: 7px;
-    height: 7px;
+    width: 4px;
+    height: 4px;
     border-radius: 40px;
     margin: 2px;
 }
@@ -116,16 +113,17 @@
     display: flex;
     align-items: center;
     color: white;
+    justify-content: space-between;
 
 }
 
 .place-location-div p {
     margin-left: 10px;
-    font-size: 14px !important;
+    font-size: 10px !important;
 }
 
 .place-location-div i {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .left-location-div p {
@@ -138,9 +136,11 @@
     display: flex;
     align-items: center;
     color: white;
+    font-size: 12px;
 }
 
 .sun i {
+    font-size: 12px;
     margin-right: 6px;
 }
 
@@ -154,8 +154,8 @@ input[type=checkbox] {
 label {
     cursor: pointer;
     text-indent: -9999px;
-    width: 40px;
-    height: 20px;
+    width: 22px;
+    height: 12px;
     background: #b3d6fd;
     display: block;
     border-radius: 90px;
@@ -165,10 +165,10 @@ label {
 label:after {
     content: '';
     position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 10px;
-    height: 10px;
+    top: 3px;
+    left: 3px;
+    width: 6px;
+    height: 6px;
     background: #fff;
     border-radius: 90px;
     transition: 0.3s;
@@ -260,6 +260,7 @@ label:active:after {
 
 .right-profile h1 {
     font-size: 15px;
+    text-align: left;
 }
 
 .right-profile p {
@@ -269,8 +270,8 @@ label:active:after {
 .chart-card-one {
     background-color: white;
     width: 100%;
-    height: 35%;
-    margin: 30px 0px 30px 0px;
+    height: 30%;
+    margin: 20px 0px 20px 0px;
     border-radius: 35px;
     transition: all 0.4s ease;
     cursor: pointer;
@@ -282,7 +283,8 @@ label:active:after {
 }
 
 .detail {
-    font-size: 15px;
+    font-size: 12px;
+    text-align: left;
 }
 
 .right-card-container {
@@ -292,9 +294,9 @@ label:active:after {
 
 .card-weather {
     background-color: white;
-    width: 200px;
-    height: 120px;
-    margin: 10px;
+    width: 30%;
+    height: 15%;
+    margin: 5px 5px 0px 5px;
     border-radius: 30px;
     padding: 17px;
     display: flex;
@@ -317,16 +319,16 @@ label:active:after {
 }
 
 .card-weather-head p {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
 }
 
 .card-weather-head i {
-    font-size: 13px;
+    font-size: 9px;
     color: white;
     background-color: #5c9ce5;
-    width: 25px;
-    height: 25px;
+    width: 21px;
+    height: 21px;
     border-radius: 9px;
     display: flex;
     align-items: center;
@@ -358,15 +360,15 @@ label:active:after {
 
 .full-bar {
     background-color: #5c9ce5;
-    width: 45px;
-    height: 8px;
+    width: 30px;
+    height: 6px;
     border-radius: 8px;
     margin-top: 4px;
 }
 
 .half-bar {
-    width: 45px;
-    height: 8px;
+    width: 30px;
+    height: 6px;
     border-radius: 8px;
     margin-top: 4px;
     display: flex;
@@ -374,30 +376,30 @@ label:active:after {
 
 .bar-1 {
     background-color: #5c9ce5;
-    width: 20px;
+    width: 15px;
     border-radius: 8px 0px 0px 8px;
-    height: 8px;
+    height: 6px;
 }
 
 .bar-2 {
     background-color: lightgrey;
-    width: 25px;
+    width: 15px;
     border-radius: 0px 8px 8px 0px;
-    height: 8px;
+    height: 6px;
 }
 
 .full-bar-per {
     background-color: #5c9ce5;
-    width: 15px;
-    height: 8px;
+    width: 90%;
+    height: 6px;
     border-radius: 8px;
     margin-top: 4px;
 }
 
 .empty-bar-per {
     background-color: lightgrey;
-    width: 15px;
-    height: 8px;
+    width: 90%;
+    height: 6px;
     border-radius: 8px;
     margin-top: 4px;
 }
@@ -417,7 +419,7 @@ label:active:after {
 }
 
 .uv {
-    width: 25px;
+    width: 20px;
 }
 
 .feels-ranges {
@@ -437,8 +439,8 @@ label:active:after {
 
 .uv-bar {
     background-color: #5c9ce5;
-    width: 160px;
-    height: 8px;
+    width: 100%;
+    height: 6px;
     border-radius: 8px;
     margin-top: 4px;
     display: flex;
@@ -446,14 +448,14 @@ label:active:after {
 
 .uvbar1 {
     width: 110px;
-    height: 8px;
+    height: 6px;
     background-color: #5c9ce5;
     border-radius: 8px 0px 0px 8px;
 }
 
 .uvbar2 {
     width: 50px;
-    height: 8px;
+    height: 6px;
     background-color: lightgrey;
     border-radius: 0px 8px 8px 0px;
 }
@@ -468,7 +470,7 @@ label:active:after {
 
 .speed i {
     color: #5c9ce5;
-    font-size: 40px;
+    font-size: 16px;
     margin-bottom: 8px;
 }
 
@@ -480,7 +482,7 @@ label:active:after {
 
 .chart-top-head-p {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .chart-top-head-inner {
@@ -494,12 +496,13 @@ label:active:after {
     justify-content: space-between;
     align-items: center;
     margin-right: 15px;
-    font-size: 10px;
+    font-size: 8px;
+    font-weight: bold;
     color: #575656;
     background-color: #f0eded;
     border-radius: 5px;
-    width: 100px;
-    height: 20px;
+    width: 92px;
+    height: 16px;
     padding: 7px;
 
 }
@@ -509,20 +512,20 @@ label:active:after {
     justify-content: space-between;
     align-items: center;
     margin-right: 15px;
-    font-size: 10px;
+    font-size: 8px;
     color: black;
     font-weight: bold;
     background-color: #f0eded;
     border-radius: 5px;
     width: 80px;
-    height: 20px;
+    height: 16px;
     padding: 7px;
 }
 
 .chart-values-container {
     display: flex;
     margin-top: 14px;
-    height: 150px;
+    height: 80%;
     justify-content: space-between;
 
 }
@@ -535,15 +538,15 @@ label:active:after {
 }
 
 .chart-values p {
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .chart-values i {
-    font-size: 11px;
+    font-size: 8px;
 }
 
 .chart-values h4 {
-    font-size: 13px;
+    font-size: 11px;
 
 }
 
@@ -551,11 +554,95 @@ label:active:after {
     font-size: 11px;
     color: grey;
     font-weight: 100;
+    margin-bottom: 10px;
 }
 
 .vr {
     border-left: solid 1px grey;
-    height: 45px;
+    height: 30%;
     width: 1px;
     margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-card {
+        flex-direction: column;
+        width: 90%;
+        background-color: #5c9ce5;
+    }
+
+    .left-temp-card {
+        width: 100%;
+
+    }
+
+    .right-chart-card {
+        width: 100%;
+    }
+
+    .main-bg {
+        height: 250vh;
+        align-items: flex-start;
+        padding-top: 40px;
+    }
+
+    .place-location-div p {
+        font-size: 13px !important;
+    }
+
+    .place-location-div i {
+        font-size: 13px;
+    }
+
+    .left-location-div p {
+        font-size: 13px;
+    }
+
+    .sun {
+        font-size: 13px;
+    }
+
+    .sun i {
+        font-size: 13px;
+    }
+
+    .fa-ellipsis {
+        display: none;
+    }
+
+    .right-profile h1 {
+        font-size: 14px;
+    }
+
+    .right-profile p {
+        text-align: left;
+        font-size: 11px;
+    }
+
+    .chart-top-head {
+        flex-direction: column;
+    }
+
+    .chart-top-head-p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .rain-down {
+        width: 83px;
+    }
+
+    .nextdays {
+        width: 65px !important;
+    }
+
+    .right-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-weather {
+        width: 80%;
+        margin-bottom: 10px;
+    }
 }
